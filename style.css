@@ -94,16 +94,44 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .cards img {
   width: 150px;
-  border-radius: 4px; 
-  margin: 16px; 
+  border-radius: 4px;
+  margin: 16px;
 }
 
 .card-text {
   width: 150px;
   text-align: center;
-  margin: 0px 16px; 
+  margin: 0px 16px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
+  padding: 180px;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+  font-style: italic;
+  width: 600px; 
+}
+
+#credits {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700; 
+  
 }
