@@ -43,14 +43,13 @@ li {
   display: flex;
   align-items: center;
   background-color: #1f2937;
-
+  justify-content: center;
   padding: 100px;
 }
 
 #showcase-column {
   display: flex;
   flex-direction: column;
-  margin-left: 240px;
 }
 
 #showcase-text {
@@ -99,7 +98,7 @@ li {
 
 .cards img {
   width: 150px;
-  border-radius: 4px;
+  border-radius: 10px;
   margin: 16px;
 }
 
@@ -121,17 +120,60 @@ li {
 .quote-text {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; 
+  align-items: flex-end;
   font-size: 36px;
   color: #1f2937;
   font-weight: 100;
   font-style: italic;
-  width: 600px; 
+  width: 680px;
 }
 
 #credits {
+  margin-top: 10px; 
   font-size: 18px;
   font-style: normal;
-  font-weight: 700; 
-  
+  font-weight: 700;
+}
+
+.centering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notify {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  background-color: #3882f6;
+  border-radius: 10px; 
+  color: white;
+  width: 800px;
+  margin: 80px; 
+}
+
+.notify-body {
+  padding: 40px; 
+}
+
+#notify-text {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.notify .signup {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white; 
+  justify-content: center;
+  align-items: center;
+  padding: 32px; 
+  font-weight:300;
+  font-size: 14px;
 }
